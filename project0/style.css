@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, sans-serif;}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+    margin: 10px;
+}
+#advanced-page div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+    justify-content: flex-start;
+}
+#advanced-page label{
+    width: 200px;
+    margin-right: 10px;
+    text-align: left;
+}
+#advanced-page input[type="submit"]{
+    margin-top: 10px;
+    margin-left: 210px;
+    padding: 12px 25px;
+    background-color: #0a19f0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#advanced-page form {
+    width: 650px;
+    margin: 30px 0;
+}
+input[type="text"]{
+    width: 400px;
+    padding: 10px;
+    border: 2px solid #970ae9;
+    border-radius: 24px;
+    margin: 0;
+}
+button{
+    padding: 10px 18px;
+    margin: 10px 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #188038;
+    color: white;
+}
+.top-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 10px;
+}
+#google-home  {
+    text-align: center;
+}
+#google-home form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+#image-page {
+    text-align: center;
+}
+#image-page form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+#image-page input[type="text"],
+#image-page input[type="submit"] {
+    margin: 0;
+}#image-page input[type="submit"] {
+    background-color: #188038;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    input[type="text"] {
+        width: 90%;
+        box-sizing: border-box;
+    }
+    #adnanced-page form {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    #adnanced-page label {
+        width: 130px;
+        font-size: 13px;
+    }
+    #advanced-page div {
+        gap: 5px;
+        margin: 12px;
+    }
+    #google-home button {
+        padding: 9px 12px;
+        font-size: 13px;
+    }
+    #image-page form {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    #image-page input[type="text"] {
+        max-width: 100%;
+    }
+}

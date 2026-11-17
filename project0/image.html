@@ -2,8 +2,17 @@
 <html lang="en">
     <head>
         <title>my search project</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-
+    <body id="image-page">
+        <h1>Google Images</h1>
+        <a href="index.html">Google Search</a>
+        <form
+        action="https://www.google.com/search"
+        method="get">
+        <input type="text" name="q" placeholder="Search Images">
+        <input type="hidden" name="tbm" value="isch">
+        <input type="submit" value="Google Search">
+        </form>
     </body>
 </html>

@@ -2,20 +2,24 @@
 <html lang="en">
     <head>
         <title>my search project</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body id="google-home">
         <h1>Google</h1>
+        <div class="top-links">
+            <a href="image.html">Google image search</a>
+            <a href="advanced.html">Advanced Search</a>
+        </div>
         <form
         action="https://www.google.com/search"
         method="get">
             <input type="text" name="q"
             placeholder="Search Google">
-            <button>Google seach</button>
+            <div class="button-group">
+                <button>Google Search</button>
+                <button name="btnI" value="1">I'm Feeling Lucky</button>
+            </div>
         </form>  
-        <a
-        href="https://www.google.com/imghp">Image Search</a>  
-        <a
-        href="https://google.com/advanced_search"
-        target="_blank">Advanced search</a>
+        
     </body>
 </html>
